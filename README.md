@@ -8,8 +8,10 @@
 最终，Hunyuan-TurboS在Math、Reasoning、Alignment等基准中表现优于GPT4O-0806、DeepSeek V3和其他开源模型，同时在包括MMLU-Pro在内的Knowledge也表现出了有竞争力的成果。
 
 ## 模型效果
-![Image](https://github.com/user-attachments/assets/7367f110-9932-499b-a7db-862d0be0f750)
-![Image](https://github.com/user-attachments/assets/c6d2f8a9-a1db-4793-a744-414ad4255e18)
+![image](https://github.com/user-attachments/assets/65f3b0b2-ef61-466b-a3c4-e154dde93e3c)
+
+![image](https://github.com/user-attachments/assets/d653fca6-26eb-49d8-8997-6b4c35154511)
+
 
 
 <link rel="stylesheet" href="/llm.hunyuan.turbo-s/assets/css/custom-theme.css">
