@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="Report/Figures/hunyuan_v1.png" alt="Intro_P1" width="30%">
+  <img src="Figures/hunyuan_v1.png" alt="Intro_P1" width="30%">
 </p>
 
 ## Introduction
@@ -13,7 +13,7 @@ The model features an adaptive long-short chain-of-thought (CoT) mechanism, allo
 
 Hunyuan-TurboS has achieved remarkable results, including a score of **1355** on the LMSYS Chatbot Arena, placing it in the **top 10** models. It excels in math, multi-turn conversations, and longer queries, demonstrating its powerful reasoning capabilities and efficiency.
 
-![Intro_P1](Report/Figures/Intro_P1.png)
+![Intro_P1](Figures/Intro_P1.png)
 
 ## Key Features
 
@@ -38,7 +38,7 @@ Hunyuan-TurboS achieves impressive performance while maintaining fast inference 
 ### Model Architecture
 
 Hunyuan-TurboS is a hybrid model combining Transformer, Mamba2, and Feed-Forward Network (FFN) components. It consists of 128 layers, with a total of 560B parameters and 56B activated parameters. The model uses an innovative AMF/MF block pattern to balance performance and efficiency.
-![Intro_P1](Report/Figures/TurboS.png)
+![Intro_P1](Figures/TurboS.png)
 
 
 
@@ -46,9 +46,9 @@ Hunyuan-TurboS is a hybrid model combining Transformer, Mamba2, and Feed-Forward
 
 - **Pre-training**: The model was pre-trained on a dataset of 16T high-quality tokens, supporting a context length of up to 256K. It employs techniques such as annealing and curriculum-based long-context extension to enhance its capabilities.
 - **Post-training**: Our comprehensive post-training strategy includes Supervised Fine-Tuning, Adaptive Long-Short CoT Fusion, Multi-round Arena Learning, and a two-stage Large-scale Reinforcement Learning process. This strategy significantly improves the model's capabilities across various domains.
-![Intro_P1](Report/Figures/data_process_v1.png)
+![Intro_P1](Figures/data_process_v1.png)
 
-![Intro_P1](Report/Figures/post_train_v1.png)
+![Intro_P1](Figures/post_train_v1.png)
 
 
 ## Getting Started
@@ -62,7 +62,7 @@ To achieve optimal performance when using Hunyuan-TurboS: Set the temperature be
 
 Hunyuan-TurboS demonstrates state-of-the-art performance across multiple benchmarks:
 
-![Intro_P1](Report/Figures/eval_bench_v1.png)
+![Intro_P1](Figures/eval_bench_v1.png)
 
 
 
